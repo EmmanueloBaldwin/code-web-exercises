@@ -66,7 +66,7 @@
             let color3 = cyan
                 if (color1){
                 console.log("Strawberries are red");
-                if (color2){
+                if (color2)
                     console.log("blue is the color of the sky");
                     if (color3){
                         console.log("I don't know anything about cyan");
@@ -74,7 +74,7 @@
                 console.log("You did not pick any of my favorite colors!");
             }
         }
-
+console.log(analyzeColor(blue));
 // Don't change the next two lines!
 // These lines create two variables for you:
 // - `colors`: a list of the colors of the rainbow
