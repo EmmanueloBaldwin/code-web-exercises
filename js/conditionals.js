@@ -175,11 +175,14 @@ console.log(analyzeColor(blue));
          * calculateTotal(0, 100) // returns 100
          * calculateTotal(4, 100) // returns 50
          * calculateTotal(5, 100) // returns 0
-         *
+
          * Test your function by passing it various values and checking for the expected
          * return value.
          */
-
+function calculateTotal(luckyNumber, total) {
+            return luckyNumber * total;
+        }
+console.log(calculateTotal())
         /**
          * TODO:
          * Uncomment the line below to generate a random number between 0 and 6.

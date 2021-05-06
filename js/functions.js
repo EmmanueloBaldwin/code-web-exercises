@@ -40,15 +40,16 @@ console.log(hellomessage)
         alert("your tip amount is" + calculateTip(tip, total ))
 
     }
-   displaytipammount();
+   //displaytipammount();
 
     function applyDiscount( price, percentage) {
-       let discontedPrice = price * percentage;
-       return price - discontedPrice;
-       console.log(applyDiscount(45.99 - .12));
+        let discontedPrice = price * percentage;
+        return price - discontedPrice;
+    }
+       console.log(applyDiscount(45.99 , .12));
         
 
-    }
+
 
          
 
