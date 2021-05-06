@@ -1,5 +1,5 @@
 (function () {
-    "use strict";
+
         "use strict";
 
         /**
@@ -7,17 +7,17 @@
          * Create an array of 4 people's names and store it in a variable called
          * 'names'.
          */
+let name = ["Sena" , "Tiffany" , "Jazmine" , "Toawana"]
 
         /**
          * TODO:
          * Create a log statement that will log the number of elements in the names
          * array.
          */
-
+        console.log(name.length);
         /**
          * TODO:
-         * Create log statements that will print each of the names individually by
-         * accessing each element's index.
+         *
          */
 
         /**
