@@ -36,7 +36,7 @@ let name = ["Sena" , "Tiffany" , "Jazmine" , "Toawana"]
         }
         /**
          * TODO:
-         * Refactor your above code to use a `forEach` loop
+         * Refactor your above  to use a `forEach` loop
          */
             let names = ["Sena" , "Tiffany" , "Jazmine" , "Toawana"]
                 let newNames = [];
