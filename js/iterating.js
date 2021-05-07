@@ -15,22 +15,37 @@ let name = ["Sena" , "Tiffany" , "Jazmine" , "Toawana"]
          * array.
          */
         console.log(name.length);
-        /**
-         * TODO:
-         *
-         */
-
-        /**
+            /**
+             * TODO:
+             * Create log statements that will print each of the names individually by
+             * accessing each element's index.
+             */
+            let names = ["Sena" , "Tiffany" , "Jazmine" , "Toawana"]
+                colors.forEach(function(name) {
+                    console.log ( name )
+                })
+            /**
          * TODO:
          * Write some code that uses a for loop to log every item in the names
          * array.
          */
+            let names = ["Sena" , "Tiffany" , "Jazmine" , "Toawana"]
 
+                for(let i = 0; i < names.length; i++) {
+                    console.log(names[i]);
+        }
         /**
          * TODO:
          * Refactor your above code to use a `forEach` loop
          */
+            let names = ["Sena" , "Tiffany" , "Jazmine" , "Toawana"]
+                let newNames = [];
 
+                names.forEach(item => {
+                    newNames.push(item * 2);
+        })
+
+        console.log(newNames);
         /**
          * TODO:
          * Create the following three functions, each will accept an array and
