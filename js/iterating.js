@@ -59,6 +59,15 @@ let name = ["Sena" , "Tiffany" , "Jazmine" , "Toawana"]
          *  > second([1, 2, 3, 4, 5]) // returns 2
          *  > last([1, 2, 3, 4, 5]) // return 5
          */
+        let array1 = ['1', '2', '3' , '4' , '5'];
+        return (array1[0]);
+        return (array1[1]);
+        return (array1[4]);
+
+
+
+
+
 
 // TODO: MINI-EXERCISE
 //  -> var days = ["Monday", "Tuesday", "Wednesday"];

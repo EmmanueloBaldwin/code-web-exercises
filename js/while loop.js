@@ -1,14 +1,14 @@
 
 
-//var counter = 0; // starting point
+var counter = 0; // starting point
 
-//while(counter <= 25){
-//    console.log(`starting num: ${counter}`);
- //   if(counter % 2 === 0){
-//        console.log(counter);
-//    }
-//    counter +=1;
-//}
+while(counter <= 25){
+   console.log(`starting num: ${counter}`);
+   if(counter % 2 === 0){
+       console.log(counter);
+   }
+   counter +=1;
+}
 
 
 
