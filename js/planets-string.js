@@ -20,7 +20,7 @@
      * Create a string with <br> tags between each planet. console.log() your
      * results. Why might this be useful?
      *
-  let planetsString= "Mercury \n Venus \n Earth \n Mars \n Jupiter \n Saturn \n Uranus \n Neptune";
+  let planets String= "Mercury \n Venus \n Earth \n Mars \n Jupiter \n Saturn \n Uranus \n Neptune";
 
 
      * BONUS:
@@ -28,5 +28,5 @@
      * list. You will need an opening AND closing <ul> tags around the entire
      * string, and <li> tags around each planet.
      */
-
+    let planets String= "Mercury \n Venus \n Earth \n Mars \n Jupiter \n Saturn \n Uranus \n Neptune";
 })();

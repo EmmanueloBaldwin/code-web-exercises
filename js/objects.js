@@ -58,7 +58,8 @@ function showObjProp(obj){
                 lastName: 'Baldwin'
             };
 
-            let myName = person;
+            let person = myName;
+                return myName + 'hello';
             /**
              * TODO:
              * Add a sayHello method to the person object that returns a greeting using
