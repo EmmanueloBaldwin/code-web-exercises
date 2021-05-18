@@ -16,3 +16,15 @@ function showTime() {
     console.log(time)
 }
 let display = setInterval(showTime, 5000);
+
+//TODO: Write a function called showTime() that logs the current time after six seconds. To return a new date and time, save the results of new Date() to a variable. Example let dateTime = new Date();
+
+    function showtime() {
+        let dateTime = new Date();
+        console.log(dateTime)
+    }
+    let abort = setTimeout(showTime, 6000);
+
+    clearTimeout(showTime);
+
+}
