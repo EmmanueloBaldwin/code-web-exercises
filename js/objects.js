@@ -90,6 +90,14 @@ function showObjProp(obj){
                 {name: 'George', amount: 320}
             ];
 
+
+
+                    function iterate(item) {
+                        console.log(item);
+
+                    }
+
+                        shoppers.forEach(iterate);
             /** TODO:
              * Create an array of objects that represent books and store it in a
              * variable named `books`. Each object should have a title and an author
@@ -102,8 +110,15 @@ function showObjProp(obj){
              * > console.log(books[0].author.firstName) // "Douglas"
              * > console.log(books[0].author.lastName) // "Adams"
              */
+            let books = [
+                {title: 'How successful people think', author: John, Maxwell},
+                {title: 'Ryan', author: 250},
+                {title: 'George', author: 320}
+                {title: '', author: }
+                {title: '', author: }
+            ];
 
-            /**
+    /**
              * TODO:
              * Loop through the books array and output the following information about
              * each book:

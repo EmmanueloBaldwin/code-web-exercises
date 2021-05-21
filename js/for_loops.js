@@ -29,8 +29,8 @@ for (let i=0; i<=10; i++) {
         function generatePyramid() {
             let totalNumberofRows = 9;
             let output = '';
-            let (var i = 1; i <= totalNumberofRows; i++) {
-                for (var j = 1; j <= i; j++) {
+            let (let i = 1; i <= totalNumberofRows; i++) {
+                for (let j = 1; j <= i; j++) {
                     output += j + '  ';
                 }
                 console.log(output);
