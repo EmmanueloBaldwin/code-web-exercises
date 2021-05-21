@@ -87,7 +87,7 @@ function showObjProp(obj){
             var shoppers = [
                 {name: 'Cameron', amount: 180},
                 {name: 'Ryan', amount: 250},
-                {name: 'George', amount: 320}
+                {name: 'George', amount: 320},
             ];
 
 
@@ -111,9 +111,9 @@ function showObjProp(obj){
              * > console.log(books[0].author.lastName) // "Adams"
              */
             let books = [
-                {title: 'How successful people think', author: John, Maxwell},
-                {title: 'Ryan', author: 250},
-                {title: 'George', author: 320}
+                {title: 'How successful people think', author: 'John', 'Maxwell'}
+                {title: 'The trumpet of terror', author: 'Deborah', 'Goodman'}
+                {title: 'Investing in your 20s & 30s', author: "Eric", "Tyson"}
                 {title: '', author: }
                 {title: '', author: }
             ];
