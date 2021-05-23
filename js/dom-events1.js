@@ -13,8 +13,7 @@ function addPost() {
         textBox.appendChild(paragraph)
             paragraph.innerText = textInput.value
 }
-
-
+ c
 
 
 
